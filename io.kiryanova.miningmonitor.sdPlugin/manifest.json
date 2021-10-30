@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/actionimage", 
+      "Name": "Mining Monitor", 
+      "States": [
+        {
+          "Image": "action/images/action"
+        }
+      ], 
+      "Tooltip": "Monitor the status of your miner", 
+      "UUID": "io.kiryanova.miningmonitor"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Marie Kiryanova", 
+  "CodePath": "index.html", 
+  "PropertyInspectorPath": "propertyinspector/index.html", 
+  "Description": "Monitor the status of your miner", 
+  "Name": "Mining Monitor", 
+  "Icon": "action/images/action", 
+  "URL": "https://www.github.com/MarieKirya/streamdeck-miningmonitor", 
+  "Version": "0.0.1",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+  }
+}
