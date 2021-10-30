@@ -6,6 +6,7 @@ class MiningMonitorAction {
     canvas = null;
     context = null;
     logger = null;
+    interval = null;
     settings = {};
 
     constructor() {
@@ -41,6 +42,8 @@ class MiningMonitorAction {
 
         this.drawLoading(event);
         this.update(event);
+
+        this.interval = setInterval(() => this.update(event), 1000 * 60 * 10);
     }
 
     onKeyUp(event) {
